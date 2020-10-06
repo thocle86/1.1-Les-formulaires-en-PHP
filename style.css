@@ -1,0 +1,47 @@
+body {
+    background-color: lightcoral;
+}
+form {
+    width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+button {
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+button:hover {
+    scale: 1.1;
+}
+label {
+    color: black;
+}
+input, textarea {
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input:hover, textarea:hover{
+    background-color: lightgray;
+}
+select, option {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
